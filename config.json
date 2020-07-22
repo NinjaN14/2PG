@@ -1,0 +1,22 @@
+{
+    "bot": {
+        "token": "yourBotToken",
+        "secret": "oauthSecret",
+        "ownerId": "botOwnerId",
+        "activity": "2PG.xyz",
+        "id": "discordBotId"
+    },
+    "api": {
+        "port": "3000",
+        "url": "https://2pg.xyz/api",
+        "stripe": {
+            "apiKey": "stripeAPIKey",
+            "endpointSecret": "webhookEndpointSecret"
+        }
+    },
+    "dashboard": {
+        "url": "https://2pg.xyz",
+        "distPath": "/dist/dashboard"
+    },
+    "mongoURL": "mongodb://localhost/2PG"
+}
